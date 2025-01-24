@@ -10,12 +10,17 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
-
+print("\nOne of my favorite songs is:")
+print("Song Title: Blinding Lights")
+print("Artist: The Weeknd")
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
+print("\nLyrics:")
+print("I said ooh, I'm blinded by the lights")
+print("No, I can't sleep until I feel your touch")
+print("I said ooh, I'm drowning in the night")
+print("Oh, when I'm like this, you're the one I trust")
 
 
 /*:
