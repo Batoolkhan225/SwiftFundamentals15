@@ -1,15 +1,19 @@
 /*:
 ## Exercise - Numeric Type Conversion
 
- Create an integer constant `x` with a value of 10, and a double constant `y` with a value of 3.2. Create a constant `multipliedAsIntegers` equal to `x` times `y`. Does this compile? If not, fix it by converting your `Double` to an `Int` in the mathematical expression. Print the result.
- */
+Create an integer constant `x` with a value of 10, and a double constant `y` with a value of 3.2. Create a constant `multipliedAsIntegers` equal to `x` times `y`. Does this compile? If not, fix it by converting your `Double` to an `Int` in the mathematical expression. Print the result.
+*/
+let x = 10
+let y = 3.2
+let multipliedAsIntegers = x * Int(y)
+print("Result of multipliedAsIntegers: \(multipliedAsIntegers)")
 
+//: Create a constant `multipliedAsDoubles` equal to `x` times `y`, but this time convert the `Int` to a `Double` in the expression. Print the result.
+let multipliedAsDoubles = Double(x) * y
+print("Result of multipliedAsDoubles: \(multipliedAsDoubles)")
 
-//:  Create a constant `multipliedAsDoubles` equal to `x` times `y`, but this time convert the `Int` to a `Double` in the expression. Print the result.
-
-
-//:  Are the values of `multipliedAsIntegers` and `multipliedAsDoubles` different? Print a statement to the console explaining why.
-
+//: Are the values of `multipliedAsIntegers` and `multipliedAsDoubles` different? Print a statement to the console explaining why.
+print("The values of multipliedAsIntegers and multipliedAsDoubles are different because `multipliedAsIntegers` converts `y` to an `Int`, losing the decimal portion (3.2 becomes 3), while `multipliedAsDoubles` preserves the decimal by converting `x` to a `Double` for precise calculation.")
 
 /*:
 [Previous](@previous)  |  page 7 of 8  |  [Next: App Exercise - Converting Types](@next)
