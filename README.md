@@ -1,9 +1,9 @@
-# Name: Batool Hadi Kha
+# Name: Batool Hadi Khan
 
 ## About Me
 * School Email: khanb4345@durhamtech.edu
 * Dream Career: Software Developer
-* Hidden Talent: I love Baking.
+* Hidden Talent: I love Baking cheesecakes.
 
 ## Course Information
 * Semester: Spring25 (my last semester :) )
