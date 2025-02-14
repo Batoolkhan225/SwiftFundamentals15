@@ -13,6 +13,7 @@ func magicEightBall() {
     
     switch randomNum {
     case 0:
+        print("Yes, absolutely!")
     case 1:
         print("Maybe, time will tell.")
     case 2:
